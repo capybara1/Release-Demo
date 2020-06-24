@@ -1,0 +1,14 @@
+{
+  "preset": "angular",
+  "branches": [
+    "semantic-release",
+    { "name": "feature/.*", "prerelease": true }
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/exec", {
+      "publishCmd": "echo \"${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}\""
+    }],
+  ],
+}
