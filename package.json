@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Used for demonstration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capybara1/ReleaseDemo.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "capybara1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capybara1/ReleaseDemo/issues"
+  },
+  "homepage": "https://github.com/capybara1/ReleaseDemo#readme"
+}
